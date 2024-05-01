@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "Backend",
+			"path": "../Backend"
+		},
+		{
+			"name": "data",
+			"path": "../data"
+		},
+		{
+			"name": "pred_app",
+			"path": "."
+		},
+		{
+			"name": "deepfake",
+			"path": "../../../Documents/deepfake"
+		}
+	],
+	"settings": {}
+}
