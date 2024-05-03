@@ -8,6 +8,7 @@ djangorestframework
 filelock
 fsspec
 gdown
+gunicorn
 huggingface-hub
 idna
 Jinja2
