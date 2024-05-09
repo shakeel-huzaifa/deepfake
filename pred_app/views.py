@@ -36,7 +36,7 @@ class PredictionView(APIView):
             image_path = self.save_file(file)
             
             # Predict
-           resnet50_pred, swin_pred = predict_image(image_path)
+           resnet50_pred, swin_pred= predict_image(image_path)
            #resnet50_pred, swin_pred, effNetB6_pred, ensemble_preds= predict_image(image_path)
             if os.path.exists(image_path):
                 os.remove(image_path)
