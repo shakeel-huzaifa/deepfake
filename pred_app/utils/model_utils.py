@@ -35,11 +35,6 @@ def load_resnet50_model():
     model_state = torch.load(resnet_model_path, map_location=torch.device('cpu'))
     model.load_state_dict(model_state)
 
-
-    # Load the models
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    model.to(device)
-
     return model
 
 def load_swin_transformer_model():
